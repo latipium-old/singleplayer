@@ -3,6 +3,7 @@
   <PropertyGroup>
     <ProjectGuid>{D94C11FE-3560-4C19-B12A-F22E5DEB90CF}</ProjectGuid>
     <RootNamespace>Com.Latipium.SinglePlayer</RootNamespace>
+    <LatipiumTarget>Executable</LatipiumTarget>
     <CustomCommands>
       <CustomCommands>
         <Command type="Custom" name="Authorize CI" command="$(SolutionDir)/packages/CommandWrapper.1.6/bin/command-wrapper.exe MONO_PATH=$(SolutionDir)/packages/CommandLineParser.1.9.71/lib/net45/:$(SolutionDir)/packages/GitSharp.0.3/lib/:$(SolutionDir)/packages/log4net.2.0.5/lib/net45-full/:$(SolutionDir)/packages/Microsoft.Web.Xdt.2.1.1/lib/net40/:$(SolutionDir)/packages/Newtonsoft.Json.9.0.1/lib/net45/:$(SolutionDir)/packages/NuGet.Core.2.12.0/lib/net40-Client/:$(SolutionDir)/packages/SharpZipLib.0.86.0/lib/20/:$(SolutionDir)/packages/Tamir.SharpSSH.1.1.1.13/lib/:$(SolutionDir)/packages/Winterdom.IO.FileMap.2.0.2.0/lib/:$(SolutionDir)/packages/BouncyCastle.1.8.1/lib/:$(SolutionDir)/packages/YamlDotNet.4.0.0/lib/net35/ PATH=$(SolutionDir)/packages/CommandLineParser.1.9.71/lib/net45/;$(SolutionDir)/packages/GitSharp.0.3/lib/;$(SolutionDir)/packages/log4net.2.0.5/lib/net45-full/;$(SolutionDir)/packages/Microsoft.Web.Xdt.2.1.1/lib/net40/;$(SolutionDir)/packages/Newtonsoft.Json.9.0.1/lib/net45/;$(SolutionDir)/packages/NuGet.Core.2.12.0/lib/net40-Client/;$(SolutionDir)/packages/SharpZipLib.0.86.0/lib/20/;$(SolutionDir)/packages/Tamir.SharpSSH.1.1.1.13/lib/;$(SolutionDir)/packages/Winterdom.IO.FileMap.2.0.2.0/lib/;$(SolutionDir)/packages/BouncyCastle.1.8.1/lib/;$(SolutionDir)/packages/YamlDotNet.4.0.0/lib/net35/ WRAPPER_ASK=3 -- $(SolutionDir)/packages/Com.Latipium.DevTools.1.2.2.2/bin/Com.Latipium.DevTools.exe authorize -C $(ProjectDir) Please__enter__your__NuGet.org__API__key:" workingdir="$(SolutionDir)/packages/Com.Latipium.DevTools.1.2.2.2/" />
@@ -48,10 +49,35 @@
     <Reference Include="log4net">
       <HintPath>$(SolutionDir)\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
     </Reference>
+    <Reference Include="Com.Latipium.Defaults.Graphics">
+      <HintPath>$(SolutionDir)\packages\Com.Latipium.Defaults.Graphics.1.0.0.5\lib\net45\Com.Latipium.Defaults.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Latipium.Defaults.IO">
+      <HintPath>$(SolutionDir)\packages\Com.Latipium.Defaults.IO.1.0.0.4\lib\net45\Com.Latipium.Defaults.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Latipium.Defaults.Physics">
+      <HintPath>$(SolutionDir)\packages\Com.Latipium.Defaults.Physics.1.0.0.5\lib\net45\Com.Latipium.Defaults.Physics.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Latipium.Defaults.Player">
+      <HintPath>$(SolutionDir)\packages\Com.Latipium.Defaults.Player.1.0.0.4\lib\net45\Com.Latipium.Defaults.Player.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Latipium.Defaults.SinglePlayer">
+      <HintPath>$(SolutionDir)\packages\Com.Latipium.Defaults.SinglePlayer.1.0.0.4\lib\net45\Com.Latipium.Defaults.SinglePlayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Latipium.Defaults.World">
+      <HintPath>$(SolutionDir)\packages\Com.Latipium.Defaults.World.1.0.0.6\lib\net45\Com.Latipium.Defaults.World.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Latipium.Security">
+      <HintPath>$(SolutionDir)\packages\Com.Latipium.Security.1.0.0.4\lib\net45\Com.Latipium.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Latipium.TestingObjects">
+      <HintPath>$(SolutionDir)\packages\Com.Latipium.TestingObjects.1.0.0.5\lib\net45\Com.Latipium.TestingObjects.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="AssemblyVersion.cs" />
+    <Compile Include="Com\Latipium\SinglePlayer\Entry.cs" />
   </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>
