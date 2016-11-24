@@ -43,20 +43,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="Com.Latipium.Core">
-      <HintPath>$(SolutionDir)\packages\Com.Latipium.Core.0.0.16.3\lib\net45\Com.Latipium.Core.dll</HintPath>
-    </Reference>
     <Reference Include="log4net">
       <HintPath>$(SolutionDir)\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Com.Latipium.Defaults.Graphics">
-      <HintPath>$(SolutionDir)\packages\Com.Latipium.Defaults.Graphics.1.0.0.5\lib\net45\Com.Latipium.Defaults.Graphics.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\Com.Latipium.Defaults.Graphics.1.0.2.3\lib\net45\Com.Latipium.Defaults.Graphics.dll</HintPath>
     </Reference>
     <Reference Include="Com.Latipium.Defaults.IO">
-      <HintPath>$(SolutionDir)\packages\Com.Latipium.Defaults.IO.1.0.0.4\lib\net45\Com.Latipium.Defaults.IO.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\Com.Latipium.Defaults.IO.1.0.3.2\lib\net45\Com.Latipium.Defaults.IO.dll</HintPath>
     </Reference>
     <Reference Include="Com.Latipium.Defaults.Physics">
-      <HintPath>$(SolutionDir)\packages\Com.Latipium.Defaults.Physics.1.0.0.5\lib\net45\Com.Latipium.Defaults.Physics.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\Com.Latipium.Defaults.Physics.1.0.1.3\lib\net45\Com.Latipium.Defaults.Physics.dll</HintPath>
     </Reference>
     <Reference Include="Com.Latipium.Defaults.Player">
       <HintPath>$(SolutionDir)\packages\Com.Latipium.Defaults.Player.1.0.0.4\lib\net45\Com.Latipium.Defaults.Player.dll</HintPath>
@@ -68,10 +65,19 @@
       <HintPath>$(SolutionDir)\packages\Com.Latipium.Defaults.World.1.0.0.6\lib\net45\Com.Latipium.Defaults.World.dll</HintPath>
     </Reference>
     <Reference Include="Com.Latipium.Security">
-      <HintPath>$(SolutionDir)\packages\Com.Latipium.Security.1.0.0.4\lib\net45\Com.Latipium.Security.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\Com.Latipium.Security.1.0.4.2\lib\net45\Com.Latipium.Security.dll</HintPath>
     </Reference>
     <Reference Include="Com.Latipium.TestingObjects">
       <HintPath>$(SolutionDir)\packages\Com.Latipium.TestingObjects.1.0.0.5\lib\net45\Com.Latipium.TestingObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Latipium.Core">
+      <HintPath>$(SolutionDir)\packages\Com.Latipium.Core.1.0.2.15\lib\net45\Com.Latipium.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Jitter">
+      <HintPath>$(SolutionDir)\packages\Jitter.0.1.7.0\lib\NET40\Jitter.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK">
+      <HintPath>$(SolutionDir)\packages\OpenTK.1.1.2225.0\lib\net20\OpenTK.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
